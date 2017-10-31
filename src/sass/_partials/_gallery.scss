@@ -1,0 +1,21 @@
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 340px);
+	grid-auto-flow: dense;
+	grid-column-gap: 40px;
+	grid-row-gap: 10px;
+	justify-content: center;
+	margin-bottom: 80px;
+
+	.gallery_card {
+		background-color: #a2a2a2;
+
+		&_imgThumbnail {
+			height: 280px;
+			background-color: #fff;
+			margin-top: 0;
+			position: relative;
+		}
+	}
+
+}
