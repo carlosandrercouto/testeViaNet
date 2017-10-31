@@ -16,25 +16,63 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<div class="gallery">
-					<div class="gallery_card">
-						<div class="gallery_imgThumbnail">
-							<img src="images/tumb_01.jpg" alt="Avatar">
+				<div class="destaque-content">
+					<div class="destaque-content_card">
+						<div class="card-img">
+							<img src="images/img1.jpg" alt="Imovel">
+
+							<div class="card-img_text">
+								<p class="text-p">Teste</p>
+								<p class="text-p">Teste 2</p>
+							</div>
 						</div>
 
-						<!-- <div class="gallery_Overlay">
-							<div>
-								<p class="produto">Castelo</p>
-								<p class="valor">R$49,99</p>
-								<p class="parcelas">ou 4x de R$12,50</p>
+						<div class="card-text">
+							<div class="card-text_title">
+								<p class="title-p">castelo</p>
+								<p class="title-p">casa germinada</p>
 							</div>
-						</div> -->
 
+							<div class="card-text_details">
+								<p class="details-p"><i class="fa fa-arrows-alt" aria-hidden="true"></i> 250m <sup>2</sup></p>
+								<p class="details-p"><i class="fa fa-bath fa-fw" aria-hidden="true"></i> 2 banheiro(s)</p>
+								<p class="details-p"><i class="fa fa-bed" aria-hidden="true"></i> 2 quarto(s)</p>
+								<p class="details-p"><i class="fa fa-car" aria-hidden="true"></i> 2 vaga(s)</p>
+							</div>
+
+							<div class="card-text_valor">
+								<p>R$10.000.000,00</p>
+								<button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#formModal"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+							</div>
+						</div>
 					</div>
+
+
 				</div>
 			</div>
 		</div>
 	</div>
+
+<!-- Modal -->
+<div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="formModalLabel">Modal title</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+			</div>
+			<div class="modal-body">
+				...
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
 
 	<!-- JS-->
 	<script src="components/jquery/jquery.min.js" charset="utf-8"></script>
