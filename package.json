@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "Projeto de teste, Via Net.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "mkdirp src/components/bootstrap/ src/components/jQuery src/components/popperJs src/components/fonts/font-awesome src/components/fonts/open-sans",
-    "postinstall": "cp -r node_modules/bootstrap/dist/**/ src/components/bootstrap/ && cp -r node_modules/jQuery/dist/jquery.min.js src/components/jQuery/ && cp -r node_modules/popper.js/dist/umd/popper.min.js src/components/popperJs/ && cp -r node_modules/font-awesome/css src/components/fonts/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/fonts/font-awesome/ && cp -r node_modules/npm-font-open-sans/open-sans.css src/components/fonts/open-sans/ && cp -r  node_modules/npm-font-open-sans/fonts src/components/fonts/open-sans/fonts/",
-    "gulp": "gulp"
-  },
   "author": "Carlos André Couto",
   "license": "ISC",
   "dependencies": {
@@ -22,5 +16,11 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "mkdirp": "^0.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "mkdirp src/components/bootstrap/ src/components/jQuery src/components/popperJs src/components/fonts/font-awesome src/components/fonts/open-sans",
+    "postinstall": "cp -r node_modules/bootstrap/dist/**/ src/components/bootstrap/ && cp -r node_modules/jQuery/dist/jquery.min.js src/components/jQuery/ && cp -r node_modules/popper.js/dist/umd/popper.min.js src/components/popperJs/ && cp -r node_modules/font-awesome/css src/components/fonts/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/fonts/font-awesome/ && cp -r node_modules/npm-font-open-sans/open-sans.css src/components/fonts/open-sans/ && cp -r  node_modules/npm-font-open-sans/fonts src/components/fonts/open-sans/fonts/",
+    "gulp": "gulp"
   }
 }
