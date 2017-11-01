@@ -1,0 +1,21 @@
+.form-Modal {
+	.modal-header {
+		color: $mainColorwhite;
+		background-color: $mainColorRed;
+	}
+
+	.form-button {
+		&_send {
+			text-align: center;
+
+			.send-button {
+				color: $mainColorwhite;
+				background-color: $mainColorRed;
+
+				&:hover {
+					background-color: darken($mainColorRed, 4%);
+				}
+			}
+		}
+	}
+}

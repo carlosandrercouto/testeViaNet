@@ -9,7 +9,6 @@
     "bootstrap": "^4.0.0-beta.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
-    "npm-font-open-sans": "^1.1.0",
     "popper.js": "^1.12.6"
   },
   "devDependencies": {
@@ -19,8 +18,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "mkdirp src/components/bootstrap/ src/components/jQuery src/components/popperJs src/components/fonts/font-awesome src/components/fonts/open-sans",
-    "postinstall": "cp -r node_modules/bootstrap/dist/**/ src/components/bootstrap/ && cp -r node_modules/jQuery/dist/jquery.min.js src/components/jQuery/ && cp -r node_modules/popper.js/dist/umd/popper.min.js src/components/popperJs/ && cp -r node_modules/font-awesome/css src/components/fonts/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/fonts/font-awesome/ && cp -r node_modules/npm-font-open-sans/open-sans.css src/components/fonts/open-sans/ && cp -r  node_modules/npm-font-open-sans/fonts src/components/fonts/open-sans/fonts/",
+    "preinstall": "mkdirp src/components/bootstrap/ src/components/jQuery src/components/popperJs src/components/fonts/font-awesome",
+    "postinstall": "cp -r node_modules/bootstrap/dist/**/ src/components/bootstrap/ && cp -r node_modules/jQuery/dist/jquery.min.js src/components/jQuery/ && cp -r node_modules/popper.js/dist/umd/popper.min.js src/components/popperJs/ && cp -r node_modules/font-awesome/css src/components/fonts/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/fonts/font-awesome/",
     "gulp": "gulp"
   }
 }
