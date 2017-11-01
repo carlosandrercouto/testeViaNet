@@ -3,14 +3,14 @@
 	grid-template-columns: repeat(auto-fill, 549px);
 	grid-auto-flow: dense;
 	grid-column-gap: 10px;
-	grid-row-gap: 10px;
+	grid-row-gap: 35px;
 	justify-content: center;
 	font-family: "Open Sans";
+	margin: 50px 0;
 
 	&_card {
 		display: flex;
 		flex-direction: row;
-		border: 1px solid;
 
 		.card-img {
 			width: 280px;
@@ -20,15 +20,19 @@
 
 			&_text {
 				width: 100%;
+				padding: 0 5px;
 				position: absolute;
 				bottom: 0;
 				display: flex;
 				justify-content: space-between;
-				border: 1px solid;
 
 				.text-p {
-					color: $mainColorBlack;
+					color: $mainColorwhite;
 					margin-bottom: 0;
+
+					& i[class^='fa'] {
+						color: rgb(237, 235, 25);
+					}
 				}
 			}
 		}

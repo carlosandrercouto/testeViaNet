@@ -2,6 +2,18 @@
 	.modal-header {
 		color: $mainColorwhite;
 		background-color: $mainColorRed;
+
+		.close {
+			background-color: #B87073;
+			color: $mainColorwhite;
+			margin: -11px -11px -15px auto;
+			padding: 12px;
+			opacity: 1;
+
+			& span {
+				vertical-align: text-top;
+			}
+		}
 	}
 
 	.form-button {
